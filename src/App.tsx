@@ -4,7 +4,6 @@ import './App.css';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from '../src/components/nav';
-import SearchBar from "./components/searchBar"
 
 
 function App() {

@@ -12,9 +12,7 @@ export interface InterfaceInfluencer {
 }
 
 const Influencers = () => {
-    const [text, setText]= React.useState('');
-    // const []= React.useState<
-    // {profilePicture: string, username: string, biography: string;}[] | undefined>(getInfluencers);
+    const [text]= React.useState('');
     const [influencers, setInfluencers] = useState<InterfaceInfluencer[] | []>(getInfluencers)
     const searchFunction = (e:any) =>{
         if(e.target.value === ""){
@@ -33,9 +31,7 @@ const Influencers = () => {
         }
     }
     };
-    // const followInfluencer = (userId: number) => {
-    //     setInfluencers(influencers.filter((influencer) => influencer.userId != userId));
-    // }
+   
 
     return (
         <>
